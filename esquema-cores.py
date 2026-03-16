@@ -69,12 +69,12 @@ frame_resultados = tk.Frame(root, bg="#f0f0f0")
 frame_resultados.pack(pady=10, fill="both", expand=True)
 
 rodape = tk.Label(
-            self.root,
-            text="Desenvolvido por Helena Vitória",
-            bg="#f0f0f0",
-            fg="gray",
-            font=("Arial", 9)
-        )
-        rodape.pack(side="bottom", fill="x", pady=3)
+    root,
+    text="Desenvolvido por Helena Vitória",
+    bg="#f0f0f0",
+    fg="gray",
+    font=("Arial", 9)
+)
+rodape.pack(side="bottom", fill="x", pady=3)
 
 root.mainloop()
